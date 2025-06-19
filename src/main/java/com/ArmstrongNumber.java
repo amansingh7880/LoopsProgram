@@ -26,7 +26,7 @@ public class ArmstrongNumber {
     public String checkArmstrong(int n) {
         //count digits of n;
         int e = countDigits(n);
-        int rem, temp, sum = 0;
+        int rem, sum = 0;
         int x;
         for (x = n; x > 0; x /= 10) //x=x/10=15=x/10=15
         {
