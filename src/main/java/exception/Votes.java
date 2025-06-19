@@ -1,4 +1,6 @@
-package exception.com;
+package exception;
+
+import exception.Customs;
 
 import java.util.Scanner;
 public class Votes {
